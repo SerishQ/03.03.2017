@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title> 03.03.2017 </title>
+    </head>
+<body>
+    <script>
+        var char = '';
+        var bosluq = '';
+        var k = Number(prompt("Pick a number", ""));
+        for (var i = 0; i < k; i++) {
+            char = char + '#';
+            for (var j = 0; j < 2*k - (i + 1) * 2; j++) {
+                bosluq = bosluq + '&nbsp;&nbsp;';
+            }
+            document.write(char + bosluq + char + '<br>');
+            bosluq = '';
+        }
+    
+        
+        
+         
+        
+
+
+    </script>
+
+
+
+
+
+</body>
+</html>
